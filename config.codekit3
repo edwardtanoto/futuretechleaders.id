@@ -25,6 +25,12 @@
 		"oAP": "/build/.gitmodules",
 		"oF": 0
 		},
+	"/build": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "/build/build",
+		"oF": 0
+		},
 	"/css/components.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -377,7 +383,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-tar",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 630010842.36881495
+	"lastBuiltDate": 630011457.52048898
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
