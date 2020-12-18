@@ -1,0 +1,1 @@
+const navbar=document.querySelector(".navbar");window.onscroll=()=>{window.scrollY>20?(navbar.classList.add("scrolled"),navbar.classList.add("fixed-top")):(navbar.classList.remove("scrolled"),navbar.classList.remove("fixed-top"))};
