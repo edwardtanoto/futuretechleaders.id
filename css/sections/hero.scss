@@ -18,8 +18,7 @@ section.hero {
     }
 
     .hero-main {
-        display: none;
-        // display: grid;
+        display: grid;
         grid-area: 1 / 1 / 2 / 6;
         align-items: center;
         width: 100vw;
@@ -48,8 +47,7 @@ section.hero {
     }
 
     .hero-marquee {
-        display: none;
-        // display: grid;
+        display: grid;
         grid-area: 1 / 1 / 2 / 6;
         align-items: center;
         margin-top: 20px;
@@ -142,37 +140,75 @@ section.hero {
     }
 }
 
-@media screen and (max-width: 120000000000000px) {
-    // @media screen and (max-width: 1200px) {
-    section.hero {
-        // .hero-marquee {
-        //     display: none;
-        // }
+// TODO: Uncomment this when launch
+// @media screen and (max-width: 1200px) {
+//     section.hero {
+//         .hero-marquee {
+//             display: none;
+//         }
 
-        .hero-blob {
-            display: block;
-            grid-area: 1 / 1 / 2 / 6;
-            width: 100%;
-            height: auto;
-            padding-top: 150px;
-            padding-right: inherit;
-            padding-bottom: 150px;
-            padding-left: inherit;
-            border-radius: 0px;
-            color: white;
+//         .hero-blob {
+//             display: block;
+//             grid-area: 1 / 1 / 2 / 6;
+//             width: 100%;
+//             height: auto;
+//             padding-top: 150px;
+//             padding-right: inherit;
+//             padding-bottom: 150px;
+//             padding-left: inherit;
+//             border-radius: 0px;
+//             color: white;
 
-            .hero-title {
-                font-size: 40px;
-            }
+//             .hero-title {
+//                 font-size: 40px;
+//             }
 
-            .hero-subtitle {
-                font-size: 20px;
+//             .hero-subtitle {
+//                 font-size: 20px;
 
-                a {
-                    border-bottom: solid 2px white;
-                    color: white;
-                    text-decoration: none;
-                }
+//                 a {
+//                     border-bottom: solid 2px white;
+//                     color: white;
+//                     text-decoration: none;
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// TODO: Remove this when launch
+section.hero {
+    .hero-marquee {
+        display: none;
+    }
+
+    .hero-main {
+        display: none;
+    }
+
+    .hero-blob {
+        display: block;
+        grid-area: 1 / 1 / 2 / 6;
+        width: 100%;
+        height: auto;
+        padding-top: 150px;
+        padding-right: inherit;
+        padding-bottom: 150px;
+        padding-left: inherit;
+        border-radius: 0px;
+        color: white;
+
+        .hero-title {
+            font-size: 40px;
+        }
+
+        .hero-subtitle {
+            font-size: 20px;
+
+            a {
+                border-bottom: solid 2px white;
+                color: white;
+                text-decoration: none;
             }
         }
     }

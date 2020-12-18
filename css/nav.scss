@@ -41,18 +41,32 @@ nav.navbar.scrolled {
     }
 }
 
-@media screen and (max-width: 1000000000000000px) {
-    // @media screen and (max-width: 1200px) {
-    nav.navbar {
-        z-index: 999;
-        position: fixed;
-        top: 0px;
-        background-color: var(--lada-black);
+// TODO: Uncomment this when launch
+// @media screen and (max-width: 1200px) {
+//     nav.navbar {
+//         z-index: 999;
+//         position: fixed;
+//         top: 0px;
+//         background-color: var(--lada-black);
 
-        .navbar-toggler,
-        .navbar-toggler-icon,
-        .nav-link {
-            color: white !important;
-        }
+//         .navbar-toggler,
+//         .navbar-toggler-icon,
+//         .nav-link {
+//             color: white !important;
+//         }
+//     }
+// }
+
+// TODO: Remove this when lauch
+nav.navbar {
+    z-index: 999;
+    position: fixed;
+    top: 0px;
+    background-color: var(--lada-black);
+
+    .navbar-toggler,
+    .navbar-toggler-icon,
+    .nav-link {
+        color: white !important;
     }
 }
