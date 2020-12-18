@@ -31,6 +31,14 @@
 		"oAP": "/build/build",
 		"oF": 0
 		},
+	"/CNAME": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/CNAME",
+		"oF": 0
+		},
 	"/css/components.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -175,16 +183,16 @@
 		"sct": 0
 		},
 	"/css/styles.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/build/css/styles-min.css",
-		"oF": 2,
-		"oS": 3,
+		"oAP": "/build/css/styles.css",
+		"oF": 0,
+		"oS": 0,
 		"sct": 0
 		},
 	"/fonts/Avenir-Bold.ttf": {
@@ -342,7 +350,7 @@
 		},
 	"/img/opengraph.jpg": {
 		"ft": 16384,
-		"iS": 169820,
+		"iS": 173631,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/build/img/opengraph.jpg",
@@ -383,7 +391,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-tar",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 630012738.05083096
+	"lastBuiltDate": 630015913.850474
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
