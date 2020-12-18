@@ -183,16 +183,16 @@
 		"sct": 0
 		},
 	"/css/styles.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/build/css/styles.css",
-		"oF": 0,
-		"oS": 0,
+		"oAP": "/build/css/styles-min.css",
+		"oF": 2,
+		"oS": 3,
 		"sct": 0
 		},
 	"/fonts/Avenir-Bold.ttf": {
@@ -391,7 +391,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-tar",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 630015913.850474
+	"lastBuiltDate": 630016207.56514704
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
