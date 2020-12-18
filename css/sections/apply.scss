@@ -90,6 +90,11 @@ section.apply {
         height: 100%;
     }
 
+    .email-subscribed {
+        display: none;
+        text-align: center;
+    }
+
     @media screen and (max-width: 768px) {
         .apply-card {
             padding: 30px;
