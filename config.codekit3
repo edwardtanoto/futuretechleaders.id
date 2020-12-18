@@ -183,7 +183,7 @@
 		"sct": 0
 		},
 	"/css/styles.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"ec": 1,
@@ -391,7 +391,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-tar",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 630016207.56514704
+	"lastBuiltDate": 630016728.15105295
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
