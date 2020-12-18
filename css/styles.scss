@@ -1,0 +1,21 @@
+@import "global.scss";
+@import "fonts.scss";
+@import "components.scss";
+@import "nav.scss";
+@import "footer.scss";
+@import "sections/hero.scss";
+@import "sections/about.scss";
+@import "sections/process.scss";
+@import "sections/apply.scss";
+@import "sections/companies.scss";
+@import "sections/faq.scss";
+
+:root {
+    --taican-white: #fefbf6;
+    --marjan-red: #e4363d;
+    --lada-black: #354051;
+    --sambal-red: #ec5c40;
+    --bakso-grey: #f2eee6;
+    --eskrim-blue: #5f8390;
+    --popes-blue: #8fb2c6;
+}

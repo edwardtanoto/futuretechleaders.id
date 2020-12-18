@@ -1,0 +1,38 @@
+section.process {
+    padding: 100px 0px;
+    background-color: var(--lada-black);
+
+    .stage-card {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        padding: 30px;
+        border-radius: 10px;
+        background-color: white;
+        box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.04);
+
+        img {
+            align-self: start;
+        }
+
+        .stage-number {
+            margin-top: 30px;
+            font-size: 18px;
+        }
+
+        .stage-title {
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .stage-description {
+            margin-top: 10px;
+            flex: 1;
+        }
+
+        .stage-date {
+            margin-top: 20px;
+            color: var(--popes-blue);
+        }
+    }
+}

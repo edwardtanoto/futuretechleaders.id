@@ -1,0 +1,27 @@
+.btn {
+    padding: 13px 40px;
+    border-color: var(--marjan-red);
+    background-color: var(--marjan-red);
+    box-shadow: none;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus,
+.btn:active:focus {
+    border-color: var(--marjan-red);
+    background-color: var(--marjan-red);
+    box-shadow: none;
+}
+
+.btn-primary {
+    background-color: var(--marjan-red);
+}
+
+.gg-chevron-right::after {
+    font-weight: normal;
+    font-family: sans-serif;
+    content: "\203A";
+}

@@ -1,0 +1,41 @@
+footer {
+    color: var(--taican-white);
+    padding: 100px 0px;
+    background-color: var(--marjan-red);
+
+    .pe-lg-5 {
+        padding-right: 8rem !important;
+    }
+
+    .footer-brand {
+        h1 {
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        a {
+            color: var(--taican-white);
+            text-decoration: none;
+            border-bottom: solid 2px var(--taican-white);
+        }
+
+        .footer-garudahq {
+            max-width: 690px;
+        }
+    }
+
+    .footer-link {
+        .link {
+            margin-top: 18px;
+            font-size: 25px;
+
+            a {
+                color: var(--taican-white);
+                text-decoration: none;
+            }
+        }
+    }
+}
