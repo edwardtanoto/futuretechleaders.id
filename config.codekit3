@@ -25,6 +25,14 @@
 		"oAP": "/build/.gitmodules",
 		"oF": 0
 		},
+	"/.vscode/c_cpp_properties.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/build/.vscode/c_cpp_properties-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"/build": {
 		"ft": 65536,
 		"oA": 1,
