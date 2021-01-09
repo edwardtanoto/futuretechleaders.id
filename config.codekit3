@@ -348,12 +348,12 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/img/opengraph.jpg": {
+	"/img/share-banner.jpg": {
 		"ft": 16384,
-		"iS": 173631,
+		"iS": 217011,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/build/img/opengraph.jpg",
+		"oAP": "/build/img/share-banner.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -391,7 +391,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-tar",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 631904269.87790406
+	"lastBuiltDate": 631904522.37374902
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
