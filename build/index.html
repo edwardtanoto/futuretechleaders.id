@@ -44,7 +44,7 @@
             content="Work at leading technology company, learn from technology leaders, and leave your mark in Indonesia’s technology industry. All in 3 months.
 "
         />
-        <meta property="og:image" content="img/opengraph.jpg"" />
+        <meta property="og:image" content="img/opengraph.jpg" />
 
         <!-- Twitter -->
         <meta property="twitter:card" content="summary_large_image" />
@@ -164,7 +164,7 @@
                             </a>
                             <ul
                                 class="dropdown-menu"
-                                aria-labelledby="anguage-selector"
+                                aria-labelledby="language-selector"
                             >
                                 <li>
                                     <a class="dropdown-item" href="#Weglot-id"
@@ -857,36 +857,56 @@
                         might be interested in.
                     </p>
                 </div>
-                <form
-                    action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSf2BkKTOXZnrTNT12Z1so5xewP8bCK9OOvoyf2E1FZPWBUgIA/formResponse"
-                    method="post"
-                    target="hidden_iframe"
-                    onsubmit="submitted=true;"
-                >
-                    <div class="row mt-5">
-                        <div class="col-12 col-md col-lg-6 mx-auto me-lg-0">
-                            <input
-                                name="entry.289690329"
-                                aria-label="Email address"
-                                type="text"
-                                class="form-control"
-                                placeholder="mark.zuckerberg@garudahq.com"
-                                pattern="(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|&quot(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*&quot)@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])"
-                            />
+                <script src="https://www.google.com/recaptcha/api.js"></script>
+                <div class="form-container mt-5">
+                    <form
+                        action="https://mail.garudahacks.com/subscribe"
+                        method="POST"
+                        accept-charset="utf-8"
+                    >
+                        <label for="name"><strong>Name</strong></label
+                        ><br />
+                        <input
+                            placeholder="Andi Budiman"
+                            class="form-control"
+                            type="text"
+                            name="name"
+                            id="name"
+                        />
+                        <br />
+                        <label class="mt-3" for="email"
+                            ><strong>Email</strong></label
+                        ><br />
+                        <input
+                            placeholder="andi.budiman@garudahacks.com"
+                            class="form-control"
+                            type="email"
+                            name="email"
+                            id="email"
+                        /><br />
+                        <p
+                            class="g-recaptcha"
+                            data-sitekey="6Ldl0yYaAAAAAKQ2wIrZk8qIFCDk2WHfETukgGsf"
+                        ></p>
+                        <div style="display: none">
+                            <label for="hp">HP</label><br />
+                            <input type="text" name="hp" id="hp" />
                         </div>
-                        <div class="col-auto mx-auto ms-lg-0 pt-4 pt-md-0">
-                            <button class="btn btn-primary btn-sub-cta">
-                                Keep Me Updated
-                            </button>
-                        </div>
-                    </div>
-                    <div id="email-subscribed" class="row email-subscribed">
-                        <p class="mt-4">
-                            You have successfully subscribed to our newsletter!
-                            We will keep you updated.
-                        </p>
-                    </div>
-                </form>
+                        <input
+                            type="hidden"
+                            name="list"
+                            value="TUghZ1nzrOv72P18hxnMoA"
+                        />
+                        <input type="hidden" name="subform" value="yes" />
+                        <input
+                            class="btn btn-primary btn-sub-cta"
+                            type="submit"
+                            name="submit"
+                            id="submit"
+                            value="Keep Me Updated"
+                        />
+                    </form>
+                </div>
             </div>
         </section>
         <section id="companies" class="companies">
@@ -1018,10 +1038,20 @@
                         </p>
                     </div>
                     <div class="col-12 col-md-auto footer-link pe-lg-5">
-                        <div class="link"><a href="#">Instagram</a><br /></div>
-                        <div class="link"><a href="#">Facebook</a><br /></div>
-                        <div class="link"><a href="#">Twitter</a><br /></div>
-                        <div class="link"><a href="#">Medium</a><br /></div>
+                        <div class="link">
+                            <a href="https://www.instagram.com/garudahacks/"
+                                >Instagram</a
+                            ><br />
+                        </div>
+                        <div class="link">
+                            <a href="https://www.facebook.com/GarudaHacks"
+                                >Facebook</a
+                            ><br />
+                        </div>
+                        <div class="link">
+                            <a href="https://twitter.com/GarudaHacks">Twitter</a
+                            ><br />
+                        </div>
                     </div>
                 </div>
             </div>
